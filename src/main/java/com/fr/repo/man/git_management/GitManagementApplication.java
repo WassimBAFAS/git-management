@@ -17,6 +17,7 @@ public class GitManagementApplication implements CommandLineRunner {
 		System.out.println(additionSolution);
 		System.out.println(multiplication(10,10));
 		System.out.println(division(10,10));
+		System.out.println(soustraction(12,10));
 
 	}
 	int addition(int a,int b){
@@ -26,8 +27,12 @@ public class GitManagementApplication implements CommandLineRunner {
 		return a*b;
 	}
 
-	int division (int a,int b){
+	double division (int a,int b){
 		return a/b;
+	}
+
+	int soustraction(int a,int b){
+		return a-b;
 	}
 
 
