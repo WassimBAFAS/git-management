@@ -15,8 +15,13 @@ public class GitManagementApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		int additionSolution= addition(4,5);
 		System.out.println(additionSolution);
+		System.out.println(multiplication(10,10));
 	}
 	int addition(int a,int b){
 		return a+b;
 	}
+	int multiplication(int a,int b){
+		return a*b;
+	}
+
 }
