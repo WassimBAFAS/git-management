@@ -16,12 +16,16 @@ public class GitManagementApplication implements CommandLineRunner {
 		int additionSolution= addition(4,5);
 		System.out.println(additionSolution);
 		System.out.println(multiplication(10,10));
+		System.out.println(division(10,10));
 	}
 	int addition(int a,int b){
 		return a+b;
 	}
 	int multiplication(int a,int b){
 		return a*b;
+	}
+	int division (int a,int b){
+		return a/b;
 	}
 
 }
